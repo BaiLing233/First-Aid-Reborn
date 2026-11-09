@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "firstaid:item/morphine"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "firstaid:texture_mode": 1.0
+      },
+      "model": "firstaid:item/morphine_new"
+    }
+  ]
+}

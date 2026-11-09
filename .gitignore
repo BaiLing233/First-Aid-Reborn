@@ -1,0 +1,28 @@
+# Gradle / build output
+.gradle/
+build/
+out/
+libs/*.jar
+!libs/.gitkeep
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# Dev run directory
+run/
+logs/
+crash-reports/
+server.properties
+eula.txt
+
+# OS
+Thumbs.db
+.DS_Store
