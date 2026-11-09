@@ -2,11 +2,11 @@
 
 ## Short summary (English, ≤ 300 chars)
 
-> First Aid, ported to 1.21.1 NeoForge. Damage is split across head, body, arms and legs; wounds need bandages and splints, broken legs slow you down, and a destroyed head or body is fatal. Now with switchable new/classic textures.
+> First Aid for Minecraft 1.21.1 (NeoForge). Damage is split across head, body, arms and legs; wounds need bandages and splints, broken legs slow you down, and a destroyed head or body is fatal. Now with switchable new/classic textures.
 
 ## Short summary (中文简介, ≤ 150 字)
 
-> 医疗护理 1.21.1 NeoForge 移植版。伤害按头、身、双臂、双腿分部位计算，伤口需要绷带和石膏治疗，断腿会减速，头部或身体归零即死亡。新增新版/经典双套贴图可切换。
+> 医疗护理 1.21.1 NeoForge 版。伤害按头、身、双臂、双腿分部位计算，伤口需要绷带和石膏治疗，断腿会减速，头部或身体归零即死亡。新增新版/经典双套贴图可切换。
 
 ---
 
@@ -20,8 +20,7 @@ First Aid replaces the single health bar with a body: head, body, two arms, two 
 somewhere specific, that part bleeds, and you treat it separately. It is the mod that turns "I have
 7 hearts" into "my left leg is broken, my head is at half, and the zombie is still coming".
 
-This is an unofficial community port of [ichttt](https://github.com/ichttt)'s First Aid to
-Minecraft 1.21.1 / NeoForge 21.1.x.
+This is a community port of [ichttt](https://github.com/ichttt)'s First Aid.
 
 ### What it does
 
@@ -49,18 +48,18 @@ offset, transparency and display duration.
 
 ### Ported and improved
 
-Everything was rebuilt for 1.21.1's data-driven systems rather than patched in place:
+Everything was rebuilt for 1.21.1's systems rather than patched in place:
 
 - Damage handling moved into `Player#actuallyHurt` mixins, so **knockback and the invulnerability
   window keep working**.
-- Absorption lives in the damage model again (`getAbsorptionAmount` / `internalSetAbsorptionAmount`).
+- Absorption lives in the damage model again.
 - Networking uses `CustomPacketPayload` + `StreamCodec`; the GUI uses `LayeredDraw.Layer`; hearts are
   drawn from the `hud/heart/*` sprite set.
 - **Switchable textures**: the client option `textureMode` picks between the redrawn `NEW` art and the
   classic `OLD` art. It swaps the bandage, plaster and morphine icons, the morphine effect icon and
   the player-model health texture — live, no restart.
 
-On top of the port there are the quality-of-life additions players kept asking for:
+On top of the port:
 
 - Fully localised config (including Chinese) with section headers and tooltips.
 - **Custom healing items** — turn any item from any mod into a treatment item, with hearts restored,
@@ -72,28 +71,26 @@ On top of the port there are the quality-of-life additions players kept asking f
 ### Requirements
 
 - Minecraft **1.21.1**
-- NeoForge **21.1.x** or newer
+- NeoForge
 - Java **21**
 - Install on **both** client and server. `textureMode` is client-only.
 
 ### Compatibility notes
 
-- Works with vanilla damage sources and with modded weapons: the port routes everything through the
+- Works with vanilla damage sources and with modded weapons: everything is routed through the
   standard damage pipeline instead of intercepting individual damage types.
-- Optional PlayerRevive support compiles only when its jar is present at build time; the released jar
-  includes it.
+- Optional PlayerRevive support is included in the released jar.
 - The two knockback troubleshooting options (`forceKnockback`, `debugKnockback`) are **off by default**.
 
 ### Credits
 
 - **ichttt** — original First Aid, and the entire per-limb health design.
 - **TechnikForLife**, **rozarke** — original project contributors.
-- This port is unofficial and not affiliated with the original author.
 
 ### License
 
-GPL-3.0. The original mod is GPL-3.0, so this port is distributed under the same terms and the
-complete source is published in the project repository.
+**GPL-3.0 — the same license as the original First Aid.** The complete source is published in the
+project repository.
 
 ---
 
@@ -107,8 +104,7 @@ complete source is published in the project repository.
 部位上，那个部位会受伤、会流血，需要单独处理。它把「我还有 7 颗心」变成「我左腿断了、头只剩一半、
 僵尸还在过来」。
 
-这是 [ichttt](https://github.com/ichttt) 的 First Aid 在 1.21.1 / NeoForge 21.1.x 上的
-非官方社区移植版。
+本作是 [ichttt](https://github.com/ichttt) 的 First Aid 的社区移植版。
 
 ### 它做了什么
 
@@ -132,15 +128,15 @@ complete source is published in the project repository.
 
 ### 移植做了什么
 
-整套逻辑按 1.21.1 的数据驱动体系重写，而不是打补丁：
+整套逻辑按 1.21.1 的体系重写，而不是打补丁：
 
 - 伤害处理改为 `Player#actuallyHurt` Mixin，**击退与无敌帧保持原版行为**
-- 伤害吸收重新进入伤害模型（`getAbsorptionAmount` / `internalSetAbsorptionAmount`）
+- 伤害吸收重新进入伤害模型
 - 网络改 `CustomPacketPayload` + `StreamCodec`；GUI 改 `LayeredDraw.Layer`；心形改用 `hud/heart/*` 精灵
 - **纹理切换**：客户端选项 `textureMode` 可在「新版贴图」与「经典贴图」之间切换，覆盖绷带、石膏、
   吗啡三个物品图标、吗啡效果图标与玩家模型血量贴图，**即时生效，无需重启**
 
-移植之外还加了社区一直想要的便利功能：
+移植之外还加上了：
 
 - 配置全量本地化（含中文），带分节标题与悬停说明
 - **自定义治疗物品**：把任意模组的任意物品配成治疗用品，可设回复心数、每半颗心所需秒数、举起耗时、
@@ -152,22 +148,21 @@ complete source is published in the project repository.
 ### 前置要求
 
 - Minecraft **1.21.1**
-- NeoForge **21.1.x** 或更高
+- NeoForge
 - Java **21**
 - **客户端与服务端都要装**；`textureMode` 为客户端选项
 
 ### 兼容说明
 
 - 兼容原版伤害来源与各类模组武器：整条链路走原版伤害管线，而不是逐类型拦截
-- PlayerRevive 为软依赖，构建时存在其 jar 才会编译兼容层；发布版已包含
+- PlayerRevive 兼容已包含在发布版中
 - 两个击退排查选项（`forceKnockback`、`debugKnockback`）**默认关闭**
 
 ### 致谢
 
 - **ichttt** —— 原作 First Aid 与整套分部位生命设计
 - **TechnikForLife**、**rozarke** —— 原作贡献者
-- 本移植为社区非官方版本，与原作者无隶属关系
 
 ### 许可
 
-GPL-3.0。原作为 GPL-3.0，因此本移植沿用同一协议，完整源码已在项目仓库公开。
+**GPL-3.0 —— 与原作 First Aid 完全相同的许可证**，完整源码已在项目仓库公开。

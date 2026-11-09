@@ -1,6 +1,6 @@
 # First Aid Reborn
 
-**Per-limb health for Minecraft 1.21.1 (NeoForge 21.1.x)** — an unofficial port of
+**Per-limb health for Minecraft 1.21.1 (NeoForge)** — a community port of
 [ichttt](https://github.com/ichttt)'s [First Aid](https://github.com/ichttt/FirstAid).
 
 Instead of a single health bar, damage is tracked per body part: head, body, arms and legs each have
@@ -43,15 +43,15 @@ slows you down, a wounded head blurs your vision, and a destroyed head or body i
 ## Requirements
 
 - Minecraft **1.21.1**
-- NeoForge **21.1.x** or newer
+- NeoForge
 - Java **21**
-- Optional: [PlayerRevive](https://www.curseforge.com/minecraft/mc-mods/playerrevive) 2.1.0+ (soft dependency)
+- Optional: [PlayerRevive](https://www.curseforge.com/minecraft/mc-mods/playerrevive) (soft dependency)
 
 Client and server both need the mod. The `textureMode` option is client-only.
 
 ## Installation
 
-1. Install NeoForge 21.1.x for Minecraft 1.21.1.
+1. Install NeoForge for Minecraft 1.21.1.
 2. Drop `FirstAid-Reborn-<version>.jar` into `mods/`.
 3. Start the game. Configs are generated in `config/firstaid-{server,common,client}.toml`.
 
@@ -113,8 +113,5 @@ the mod still works, just without the revive compatibility.
 
 ## License
 
-GNU General Public License v3.0 — see [LICENSE](LICENSE).
-
-This is an unofficial port. It is not affiliated with or endorsed by the original author. Because the
-original mod is GPL-3.0, this port is distributed under the same license and its full source is
-available in this repository.
+**GPL-3.0 — the same license as the original First Aid.** See [LICENSE](LICENSE); the complete source
+is published in this repository.
