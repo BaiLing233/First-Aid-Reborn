@@ -113,5 +113,9 @@ the mod still works, just without the revive compatibility.
 
 ## License
 
-**GPL-3.0 — the same license as the original First Aid.** See [LICENSE](LICENSE); the complete source
-is published in this repository.
+Same split as the original First Aid:
+
+- **GPL-3.0** for the mod itself — see [LICENSE](LICENSE)
+- **LGPL-2.1** for the public API package (`ichttt.mods.firstaid.api`) — see [API_LICENSE](API_LICENSE)
+
+The complete source is published in this repository.

@@ -26,7 +26,6 @@ destroying the head or body is fatal.
 - **Redrawn textures**, plus a client option `textureMode` to switch between the new art and the
   original art at any time — bandage, plaster, morphine icons, the morphine effect icon and the health
   overlay. No restart needed.
-- Fully localised config, including Chinese, with section headers and tooltips.
 - **Custom healing items** — turn any item into a treatment item.
 - **Custom debuff suppressors** — morphine-like items with a configurable duration.
 - `maxHealthCap`, `hideHealthInCreative`, configurable morphine duration.
@@ -34,15 +33,11 @@ destroying the head or body is fatal.
   keep working.
 - Optional PlayerRevive integration.
 
-### Requirements
-
-Minecraft **1.21.1** · NeoForge · Java **21** · install on both client and server (`textureMode` is client-only).
-
 ### Please note
 
-- **Unofficial.** Not affiliated with or endorsed by the original author.
-- Released under **GPL-3.0, the same license as the original**. The complete source is published, and
-  the original copyright headers are kept in every file.
+- **Do not report bugs to the original author.** Feedback and issues go to this project's tracker only.
+- Released under **the same licenses as the original**: GPL-3.0 for the mod, LGPL-2.1 for the API
+  package. The complete source is published, and the original copyright headers are kept.
 
 ### Credits
 
@@ -63,21 +58,16 @@ Minecraft **1.21.1** · NeoForge · Java **21** · install on both client and se
 
 - **重绘贴图**，并新增客户端选项 `textureMode`，可随时在新版贴图与原版贴图之间切换——绷带、石膏、
   吗啡图标、吗啡效果图标、血量覆盖层全部支持，**无需重启**
-- 配置全量本地化（含中文），带分节标题与悬停说明
 - **自定义治疗物品**：把任意物品配成治疗用品
 - **自定义减益抑制物品**：类吗啡物品，抑制时长可配
 - `maxHealthCap`、`hideHealthInCreative`、吗啡抑制时长可配
 - 伤害处理改到 `Player#actuallyHurt` Mixin，击退与无敌帧保持原版行为
 - 可选 PlayerRevive 兼容
 
-### 前置要求
-
-Minecraft **1.21.1** · NeoForge · Java **21** · 客户端与服务端都要安装（`textureMode` 为客户端选项）
-
 ### 请注意
 
-- **非官方版本**，与原作者无隶属关系，也不代表原作者认可
-- 以 **GPL-3.0 发布，与原作许可证相同**；完整源码已公开，所有文件保留原有版权声明
+- **本模组出现 bug 请勿在原作者处反馈**，请反馈到本项目的 issue 页面
+- 以**与原作相同的许可证**发布：模组本体 GPL-3.0，API 包 LGPL-2.1；完整源码已公开，保留原有版权声明
 
 ### 致谢
 
