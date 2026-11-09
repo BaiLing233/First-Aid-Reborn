@@ -1,6 +1,7 @@
 /*
  * FirstAid
- * Copyright (C) 2017-2024
+ * Copyright (C) 2017-2024 ichttt (original First Aid)
+ * Copyright (C) 2026 BaiLing233 (1.21.1 NeoForge port)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
