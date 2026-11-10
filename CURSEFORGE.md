@@ -2,7 +2,7 @@
 
 ## Short summary (English)
 
-> First Aid for Minecraft 1.21.1 NeoForge — damage split across head, body, arms and legs. Unofficial update of ichttt's First Aid, with redrawn textures you can swap back to the classic ones.
+> First Aid for Minecraft 1.21.1 NeoForge — damage split across head, body, arms and legs. Unofficial 1.21.1 continuation of ichttt's First Aid, with redrawn textures you can swap back to the classic ones.
 
 ## Short summary (中文)
 
@@ -14,9 +14,7 @@
 
 # First Aid Reborn
 
-An **unofficial** update of [ichttt](https://github.com/ichttt)'s First Aid for Minecraft **1.21.1 (NeoForge)**.
-The original mod stops at 1.20.1 — [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/first-aid). All credit for the original design goes to
-the original author.
+**Related project:** [First Aid](https://www.curseforge.com/minecraft/mc-mods/first-aid) by ichttt — this is its unofficial continuation for Minecraft **1.21.1 (NeoForge)**. The original mod stops at 1.20.1. All credit for the original design goes to the original author.
 
 Health is tracked per body part — head, body, arms, legs. Each hit lands somewhere specific; wounds
 need bandages and splints, a broken leg slows you down, a wounded head blurs your vision, and
@@ -42,8 +40,6 @@ destroying the head or body is fatal.
 
 ### Credits
 
-Original mod: [https://www.curseforge.com/minecraft/mc-mods/first-aid](https://www.curseforge.com/minecraft/mc-mods/first-aid)
-
 **ichttt** — original First Aid · **TechnikForLife** — co-developed the initial idea · **rozarke** — designed the original textures.
 
 ---
@@ -52,8 +48,7 @@ Original mod: [https://www.curseforge.com/minecraft/mc-mods/first-aid](https://w
 
 # 医疗护理 Reborn（First Aid Reborn）
 
-**ichttt** 的 First Aid 在 Minecraft **1.21.1（NeoForge）** 上的**非官方**更新版。
-原作只更新到 1.20.1（[CurseForge 页面](https://www.curseforge.com/minecraft/mc-mods/first-aid)），本项目是它在 1.21.1 上的延续。原作设计与代码归原作者所有。
+**关联项目：** ichttt 的 [First Aid](https://www.curseforge.com/minecraft/mc-mods/first-aid) —— 本作是它在 Minecraft **1.21.1（NeoForge）** 上的非官方延续。原作只更新到 1.20.1。原作设计与代码归原作者所有。
 
 血量按部位计算——头、身体、双臂、双腿。每一击都落在具体部位：伤口需要绷带和石膏，断腿会减速，
 头部受伤会视野模糊，头部或身体归零即死亡。
@@ -74,7 +69,5 @@ Original mod: [https://www.curseforge.com/minecraft/mc-mods/first-aid](https://w
 - 以**与原作相同的许可证**发布：模组本体 GPL-3.0，API 包 LGPL-2.1；完整源码已公开，保留原有版权声明
 
 ### 致谢
-
-原作：[https://www.curseforge.com/minecraft/mc-mods/first-aid](https://www.curseforge.com/minecraft/mc-mods/first-aid)
 
 **ichttt**（原作 First Aid）· **TechnikForLife**（与 ichttt 共同构思最初的设计）· **rozarke**（绘制原作贴图）
