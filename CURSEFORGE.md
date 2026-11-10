@@ -36,7 +36,7 @@ destroying the head or body is fatal.
 
 - **Do not report bugs to the original author.** Feedback and issues go to this project's tracker only.
 - Released under **the same licenses as the original**: GPL-3.0 for the mod, LGPL-2.1 for the API
-  package. The complete source is published, and the original copyright headers are kept.
+  package. The complete source is published on [GitHub](https://github.com/BaiLing233/First-Aid-Reborn), and the original copyright headers are kept.
 
 ### Credits
 
@@ -66,7 +66,7 @@ destroying the head or body is fatal.
 ### 请注意
 
 - **本模组出现 bug 请勿在原作者处反馈**，请反馈到本项目的 issue 页面
-- 以**与原作相同的许可证**发布：模组本体 GPL-3.0，API 包 LGPL-2.1；完整源码已公开，保留原有版权声明
+- 以**与原作相同的许可证**发布：模组本体 GPL-3.0，API 包 LGPL-2.1；完整源码已公开在 [GitHub](https://github.com/BaiLing233/First-Aid-Reborn)，保留原有版权声明
 
 ### 致谢
 

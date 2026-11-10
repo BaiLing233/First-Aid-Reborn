@@ -1,6 +1,8 @@
 # First Aid Reborn
 
-**Per-limb health for Minecraft 1.21.1 (NeoForge)** — a community port of
+**Per-limb health for Minecraft 1.21.1 (NeoForge)** — [source on GitHub](https://github.com/BaiLing233/First-Aid-Reborn) —
+
+a community port of
 [ichttt](https://github.com/ichttt)'s [First Aid](https://github.com/ichttt/FirstAid)
 ([CurseForge](https://www.curseforge.com/minecraft/mc-mods/first-aid)). The original stops at 1.20.1; this port continues it on 1.21.1.
 
@@ -87,6 +89,11 @@ Two troubleshooting switches in `firstaid-server.toml`, both **off by default**:
   the player back and what the resulting velocity was.
 
 ## Building
+
+```bash
+git clone https://github.com/BaiLing233/First-Aid-Reborn.git
+cd First-Aid-Reborn
+```
 
 Requires JDK 21.
 
