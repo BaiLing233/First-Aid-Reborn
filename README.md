@@ -1,7 +1,8 @@
 # First Aid Reborn
 
 **Per-limb health for Minecraft 1.21.1 (NeoForge)** — a community port of
-[ichttt](https://github.com/ichttt)'s [First Aid](https://github.com/ichttt/FirstAid).
+[ichttt](https://github.com/ichttt)'s [First Aid](https://github.com/ichttt/FirstAid)
+([CurseForge](https://www.curseforge.com/minecraft/mc-mods/first-aid)). The original stops at 1.20.1; this port continues it on 1.21.1.
 
 Instead of a single health bar, damage is tracked per body part: head, body, arms and legs each have
 their own health, get wounded individually, and need bandages, splints and time to heal. A broken leg
