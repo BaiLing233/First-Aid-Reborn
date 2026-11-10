@@ -41,7 +41,7 @@ destroying the head or body is fatal.
 
 ### Credits
 
-**ichttt** (original First Aid), **TechnikForLife**, **rozarke**.
+**ichttt** — original First Aid · **TechnikForLife** — co-developed the initial idea · **rozarke** — designed the original textures.
 
 ---
 
@@ -71,4 +71,4 @@ destroying the head or body is fatal.
 
 ### 致谢
 
-**ichttt**（原作 First Aid）、**TechnikForLife**、**rozarke**
+**ichttt**（原作 First Aid）· **TechnikForLife**（与 ichttt 共同构思最初的设计）· **rozarke**（绘制原作贴图）
