@@ -22,9 +22,9 @@ destroying the head or body is fatal.
 
 ### New in this version
 
-- **Redrawn textures**, plus a client option `textureMode` to switch between the new art and the
-  original art at any time — bandage, plaster, morphine icons, the morphine effect icon and the health
-  overlay. No restart needed.
+- **Redrawn textures** (art by **enderdream**), plus a client option `textureMode` to switch between the
+  new art and the original art at any time — bandage, plaster, morphine icons, the morphine effect icon
+  and the health overlay. No restart needed.
 - **Custom healing items** — turn any item into a treatment item.
 - **Custom debuff suppressors** — morphine-like items with a configurable duration.
 - `maxHealthCap`, `hideHealthInCreative`, configurable morphine duration.
@@ -40,7 +40,7 @@ destroying the head or body is fatal.
 
 ### Credits
 
-**ichttt** — original First Aid · **TechnikForLife** — co-developed the initial idea · **rozarke** — designed the original textures.
+**ichttt** — original First Aid · **TechnikForLife** — co-developed the initial idea · **rozarke** — designed the original textures · **enderdream** — drew the new texture set.
 
 ---
 
@@ -55,7 +55,7 @@ destroying the head or body is fatal.
 
 ### 本版新增
 
-- **重绘贴图**，并新增客户端选项 `textureMode`，可随时在新版贴图与原版贴图之间切换——绷带、石膏、
+- **重绘贴图**（美术：**enderdream**），并新增客户端选项 `textureMode`，可随时在新版贴图与原版贴图之间切换——绷带、石膏、
   吗啡图标、吗啡效果图标、血量覆盖层全部支持，**无需重启**
 - **自定义治疗物品**：把任意物品配成治疗用品
 - **自定义减益抑制物品**：类吗啡物品，抑制时长可配
@@ -70,4 +70,4 @@ destroying the head or body is fatal.
 
 ### 致谢
 
-**ichttt**（原作 First Aid）· **TechnikForLife**（与 ichttt 共同构思最初的设计）· **rozarke**（绘制原作贴图）
+**ichttt**（原作 First Aid）· **TechnikForLife**（与 ichttt 共同构思最初的设计）· **rozarke**（绘制原作贴图）· **enderdream**（绘制新版贴图）

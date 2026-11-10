@@ -9,7 +9,7 @@ version="${mod_version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
 description="${mod_description}"
-credits="Original First Aid by ichttt. Initial idea developed together with TechnikForLife; the original new textures were designed by rozarke."
+credits="Original First Aid by ichttt. Initial idea developed together with TechnikForLife; the original textures were designed by rozarke; the new texture set was drawn by enderdream."
 
 [[accessTransformers]]
 file="META-INF/accesstransformer.cfg"
